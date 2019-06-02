@@ -1,0 +1,757 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#cos {
+    position: absolute;
+    right: 0%;
+    bottom: 20px;
+    left: 25%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+#cos1 {
+    position: absolute;
+    right: 0%;
+    bottom: 20px;
+    left: 50%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+#cos2 {
+    position: absolute;
+    right: 35%;
+    bottom: 20px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+
+    #cos {
+        top: 5%;
+    }
+
+    #cos1 {
+        top: 5%;
+    }
+
+    #cos2 {
+        top: 5%;
+    }
+
+    #btns {
+        display: none;
+
+    }
+
+    #mycarousal ol {
+        display: none;
+    }
+
+
+}
+
+
+#btns {
+    background: none;
+    width: 150px;
+    height: 42px;
+    border: 1px solid #f99a04;
+    border-radius: 40px;
+    color: black;
+    transition: 1s;
+
+
+}
+
+#btns a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#btns:hover {
+    border-color: #f99a04;
+    background-color: #f9c804;
+    color: white;
+
+
+}
+
+.bg-dark {
+    background-color: #54575a !important;
+}
+
+#navbar {
+    min-height: 80px;
+    padding: 0px 5px 0px 5px;
+    margin: 0;
+}
+
+#uk {
+    width: 110px;
+    height: auto;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#uk1 {
+    display: inline-block;
+    width: 120px;
+    font-size: 5px;
+    color: white;
+    font-family: 'Sofia';
+    font-size: 22px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+#uk1:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.carousel-caption h1 {
+    font-family: cursive;
+    font-size: 8vw;
+    font-family: 'Ravi Prakash';
+    color: red;
+}
+
+.carousel-caption h2 {
+    font-family: 'Ravi Prakash';
+    font-size: 6vw;
+    color: blue;
+}
+
+.carousel-caption h3 {
+    font-family: cursive;
+    font-size: 3vw;
+    color: black;
+}
+
+.carousel-caption h4 {
+    font-family: serif;
+    font-size: 4vw;
+    color: red;
+}
+
+.welcome {
+    font-size: 3.5vw;
+    font-family: serif;
+}
+
+#our {
+    font-size: 1.4vw;
+    font-family: serif;
+}
+
+.icon {
+    height: 140px;
+
+}
+
+.icon ul li {
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 360px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.icon ul li:hover {
+    border-color: #f99a04;
+    background-color: #f9c804;
+
+}
+
+@media screen and (max-width:500px) {
+    .icon {
+        height: 250px;
+
+    }
+}
+
+@media screen and (max-width:900px) {
+    .welcome {
+        font-size: 28px;
+    }
+
+    #our {
+        font-size: 12px;
+    }
+}
+
+#body1 {
+    background-color: #f7f7f7;
+    padding: 0px 30px 0px 30px;
+}
+
+#rk {
+    width: 100%;
+    height: auto;
+}
+
+
+.rotrd {
+    margin-bottom: 10px;
+
+}
+
+#button {
+    border: 1px solid black;
+}
+
+.ri1 {
+    text-align: center;
+}
+
+.frp1 {
+    font-family: 'Ravi Prakash';
+    font-size: 3rem;
+}
+
+.frp2 {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.frp3 {
+    color: red;
+}
+
+.frp4 {
+    box-shadow: 1px 2px 5px 5px #e3e1e1;
+    min-height: 340px;
+
+}
+
+.frp5 {
+    overflow: hidden;
+}
+
+.frp5 img {
+    transition: all ease .5s;
+}
+
+.fbh1 {
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+}
+
+.fbh2 {
+    color: red;
+    font-family: serif;
+    font-size: 18px;
+}
+
+.icon1 {
+    color: red;
+    font-size: 15px;
+}
+
+del {
+    color: gray;
+    font-size: 15px;
+
+}
+
+.frp5:hover img {
+    transform: scale(1.2);
+
+
+
+
+}
+
+.btn1 {
+    background: none;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #f99a04;
+    border-radius: 4px;
+    color: black;
+    transition: 1s;
+
+}
+
+.btn2 {
+    background: none;
+    width: 150px;
+    height: 42px;
+    border: 1px solid #f99a04;
+    border-radius: 4px;
+    color: black;
+    transition: 1s;
+
+}
+
+.btn1:hover {
+    border-color: #f99a04;
+    background-color: #f9c804;
+    color: white;
+
+}
+
+.btn2:hover {
+    border-color: #f99a04;
+    background-color: #f9c804;
+    color: white;
+
+}
+
+.ph1 {
+    font-size: 22px;
+    font-family: serif;
+}
+
+.pp1 {
+    font-size: 13px;
+}
+
+.parllox1 {
+    background-image: url(pizza3_793f7e47-652c-4532-b1e2-114dbd306c4d_2000x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.blogh1 {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.blogh1 a:hover {
+    color: red;
+    text-decoration-style: none;
+}
+
+.blogp1 {
+    font-size: 14px;
+
+}
+
+.btn3 {
+    background: none;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #f99a04;
+    border-radius: 20px;
+    color: black;
+    transition: 1s;
+    font-size: 12px;
+
+}
+
+.btn3:hover {
+    border-color: #f99a04;
+    background-color: #f9c804;
+    color: white;
+}
+
+.parllox2 {
+    background-image: url(pizza4_ec6006f0-f23f-4470-b709-6b90f8838270_2000x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.ri2 {
+    color: rebeccapurple;
+    min-height: 500px;
+    text-align: center;
+
+
+
+}
+
+.ri3 {
+    padding-top: 150px;
+}
+
+.pc1 {
+    font-size: 45px;
+    color: red;
+    font-family: 'Ravi Prakash';
+
+}
+
+.pc2 {
+    font-size: 25px;
+    color: red;
+    font-family: 'Ravi Prakash';
+}
+
+.pc3 {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font: bold;
+}
+
+.c1 {
+    float: left;
+}
+
+ol {
+    float: none;
+}
+
+ul li a {
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    font-size: 15px;
+    color: black;
+
+
+}
+
+ul a:hover {
+    color: red;
+    text-decoration: none;
+
+
+}
+
+ul :hover {
+    color: red;
+    transform: translate(4px);
+    transition: .2s ease;
+}
+
+h {
+    font-size: 25px;
+    display: block;
+}
+
+.c2 {
+    background-image: url(blog9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+
+}
+
+.cb2 {
+    background-image: url(blog10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+
+}
+
+.cc2 {
+    background-image: url(blog11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+
+}
+
+h {
+    font-family: 'Sofia';
+    font-size: 22px;
+}
+
+.c3 {
+    float: right;
+    margin-top: -50px;
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+
+
+
+    overflow: hidden;
+}
+
+.c3 img {
+    transition: all ease .5s;
+}
+
+.c3:hover img {
+    transform: scale(1.2);
+
+}
+
+.list1:hover {
+    padding: 0px;
+    box-shadow: 1px 2px 5px 5px #e3e1e1;
+
+}
+
+.fo1 {
+    background-color: black;
+    color: white;
+
+}
+
+.logh {
+    font-size: 40px;
+    color: white;
+    font-family: 'Ravi Prakash';
+}
+
+.logh2 {
+    font-size: 19px;
+    color: white;
+    font-family: 'Sofia';
+
+}
+
+.parllox3 {
+    background-image: url(f.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.fo3 {
+    color: white;
+
+}
+
+.footer1 {
+    font-size: 30px;
+}
+
+.fo3 ul li a {
+    color: white;
+
+}
+
+.fo3 ul li a:hover {
+    color: red;
+
+}
+
+.u3:hover {
+
+    color: blue;
+    font-size: 30px;
+}
+
+.flogo {
+    text-align: center;
+    margin-bottom: -20px;
+
+}
+
+input[type="text"] {
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="Submit"] {
+    position: relative;
+    background: #ffc107;
+    left: -5px;
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    color: #fff;
+
+}
+
+input[type="Submit"]:hover {
+    background-color: #ff5722;
+}
+
+@media screen and (max-width:1200px) {
+    input[type="Submit"] {
+        position: relative;
+        background: #ffc107;
+        left: -5px;
+        width: 90px;
+        height: 39px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 0 25px 25px 0;
+        color: #fff;
+
+    }
+
+    input[type="text"] {
+        background: #fff;
+        width: 200px;
+        height: 39px;
+        border: none;
+        outline: none;
+        padding: 0 25px;
+        border-radius: 25px 0 0 25px;
+
+    }
+}
+
+.ph2 {
+    width: 25%;
+    height: 2px;
+    margin-top: 0px;
+    background-color: red;
+    display: inline-block;
+}
+
+.scrllo {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 60px;
+    background-color: red;
+    float: right;
+
+}
+
+.scrllo:hover {
+    background-color: #ffc107;
+}
+
+/*contact.css*/
+.parllox4 {
+    background-image: url(f.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.logh3 {
+    font-size: 80px;
+    color: white;
+    font-family: 'Ravi Prakash';
+    color: red;
+}
+
+.logh4 {
+    font-size: 29px;
+    color: white;
+    font-family: 'Sofia';
+
+}
+
+.logh4:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.frp {
+    font-family: sans-serif;
+    color: aqua;
+}
+
+.bo {
+    background-color: chartreuse;
+}
+
+.ri9 {
+    text-align: center;
+}
+
+.con {
+    font-size: 25px;
+    color: red;
+    font-family: 'Ravi Prakash';
+
+}
+
+#ri10 {
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+#u4 {
+    font-size: 30px;
+    color: blue;
+}
+
+#ri11 {
+    min-height: 80px;
+    width: 40%;
+    border: 2px solid black;
+
+}
+
+#f1[type="text"] {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 2px;
+    border: 2px solid black;
+
+
+}
+
+#f2[type="text"] {
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 2px;
+    border: 2px solid black;
+
+}
+
+#f3[type="Submit"] {
+    position: relative;
+    background: #ffc107;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: #fff;
+
+}
+
+#f3[type="Submit"]:hover {
+    background: red;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: #fff;
+
+}
